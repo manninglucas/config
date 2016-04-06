@@ -31,3 +31,4 @@ My configuration files. This repository is a backup of my config files. It is ma
 13. ln -s  ~/.vimrc ~/.config/vim/.vimrc
 15. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 16. mvim +PluginClean +pluginInstall 
+17. set -Ux EDITOR mvim
